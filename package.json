@@ -1,0 +1,35 @@
+{
+  "author": {
+    "name": "Marno"
+  },
+  "bugs": {
+    "url": "https://github.com/kirayamato1989/AC-QRCode-RN/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "react-native-camera": "^0.7.0"
+  },
+  "deprecated": false,
+  "description": "A Highly customizable QRCode Scanner component for React Native",
+  "homepage": "https://github.com/MarnoDev/AC-QRCode-RN#readme",
+  "keywords": [
+    "react-native",
+    "react-native-component",
+    "reat-native-app",
+    "android",
+    "ios",
+    "react",
+    "marno"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "ac-qrcode",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirayamato1989/AC-QRCode-RN.git"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "version": "1.0.1"
+}
