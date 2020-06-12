@@ -4,7 +4,7 @@
  * Desc:
  */
 import React, {Component} from 'react';
-import Camera from 'react-native-camera';
+import {RNCamera} from 'react-native-camera';
 import PropTypes from 'prop-types';
 import
 {
@@ -395,7 +395,7 @@ export default class QRScannerView extends Component {
     render() {
         return (
             <View style={{flex: 1}}>
-                <Camera
+                <RNCamera
                     onBarCodeRead={this.props.onScanResultReceived}
                     style={{flex: 1}}
                 >
@@ -432,7 +432,7 @@ export default class QRScannerView extends Component {
                         {this.props.renderBottomMenuView()}
                     </View>
 
-                </Camera>
+                </RNCamera>
             </View>
         );
     }
