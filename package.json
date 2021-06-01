@@ -7,7 +7,7 @@
   },
   "bundleDependencies": false,
   "dependencies": {
-    "react-native-camera": "^3.43.0"
+    "react-native-camera": "^2.0.0"
   },
   "deprecated": false,
   "description": "A Highly customizable QRCode Scanner component for React Native",
